@@ -6,7 +6,7 @@ class RocketPy:
     def __init__(self, mode):
         self.mode = mode
 
-    def get_page(url):
+    def get_page(self, url):
         try:
             r = requests.get(url)
             if r.status_code == 200:
